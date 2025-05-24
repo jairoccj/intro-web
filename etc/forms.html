@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="\destino" method="post">
+    <div>
+        <label for="login">Login</label>
+        <input type="text" name="Login" maxlength="30" id="login">
+        <label for="senha">Senha</label>
+        <input type="password" name="senha" id="senha">
+        <br>
+        <h2>Form de comentário</h2>
+        <textarea name="comentario" rows="4" cols="20"></textarea>
+        <input type="radio" name="genero" value="M">Masculino
+        <input type="radio" name="genero" value="F">Feminino
+        <h2>Interesses</h2>
+        <input type="checkbox" name="interesse" value="html">HTML
+        <input type="checkbox" name="interesse" value="css">CSS
+        <h2>País</h2>
+        <select name="pais">
+            <option value="br">Brasil</option>
+            <option value="us">Estados Unidos</option>
+        </select>
+        <h2>Que instrumento você toca?</h2>
+        <div>
+            <select name="instrumentos" multiple size="5">
+            <option value="guitarra">Guitarra</option>
+            <option value="violino">Violino</option>
+            <option value="teclado">Teclado</option>
+            <option value="bateria">Bateria</option>
+            <option value="outro">Outro</option>
+        </div>
+        </select>
+        <h2>Sua foto</h2>
+        <label for="foto">Envie sua foto:</label>
+        <input type="file" name="foto">
+        <br>
+        <br>
+        <button><img src="enviar.png" height="30"> Enviar</button>
+    </div>
+        <h2>Validações do HTML5</h2>
+        <input type="email" name="email" required>
+    </form>
+</body>
+</html>

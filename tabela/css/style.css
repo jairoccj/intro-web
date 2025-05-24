@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+.tabela_clima{
+    width: 20%;
+    background-color: rgb(240, 248, 2255);
+    text-align: center;
+    margin: 2% auto;
+}
+.tabela_clima thead{
+    background-color: rgb(168, 218, 213);
+}
+.tabela_clima td, .tabela_clima th{
+    border: 1px solid black;
+    padding: 5px;
+}
+.tabela_clima tr:hover{
+    background-color: rgb(168, 218, 213);
+}
+
+.tabela_notas{
+    width: 50%;
+    min-width: 70%;
+    margin: 2% auto;
+    margin-top: 50px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-collapse:collapse;
+    text-align: center;
+    table-layout: fixed;
+}
+.tabela_notas td{
+    padding-right: 10px;
+}
+.aluno{
+    text-align: left;
+    padding: 1%;
+}
+div{
+    display: grid;
+    justify-content:center;
+    align-items: center;
+}
+div img{
+    margin: 0px auto;
+}
